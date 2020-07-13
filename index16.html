@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #6a3093;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #a044ff, #6a3093);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .formContainer {
+
+            background: #673AB7;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #512DA8, #673AB7);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #512DA8, #673AB7);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            height: 600px;
+            width: 600px;
+            color: honeydew;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 15px 15qpx 0 rgba(66, 66, 66, 0.08), 0 1px 3px 1px rgba(66, 66, 66, 0.16)
+        }
+
+        .btnLogin {
+            background-color: rgb(47, 255, 82);
+            border: 1px solid transparent;
+            border-radius: 0.2rem;
+            color: whitesmoke;
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+            ;
+        }
+
+        .btnCNA {
+            background-color: rgb(241, 255, 47);
+            border: 1px solid transparent;
+            border-radius: 0.2rem;
+            color: rgb(0, 0, 0);
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+        }
+
+        .password {
+            background-color: #673AB7;
+            border: 1px solid black;
+            border-radius: 0.2rem;
+            color: rgb(255, 255, 255);
+            width: 200px;
+            text-align: left;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+        }
+
+        .user {
+            background-color: #673AB7;
+            border: 1px solid black;
+            border-radius: 0.2rem;
+            color: rgb(255, 255, 255);
+            width: 200px;
+            text-align: left;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+        }
+
+        .borderElement {
+            width: 100%;
+            height: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgb(255, 72, 0);
+        }
+        .btnIFTP {
+            border: 1px solid transparent;
+            border-radius: 0.2rem;
+            color: rgb(255, 251, 0);
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formContainer">
+
+
+        <input type="text" id="user" name="user" placeholder=" Email" class="user"><br>
+
+        <input type="password" id="password" name="password" placeholder=" Password" class="password"><br><br>
+        <button class="btnLogin">Login</button><br>
+        <a class="btnIFTP">I forget the password</a>
+        <div class="borderElement"></div>
+        <button class="btnCNA">Create New Account</button>
+    </div>
+
+</body>
+
+</html>
