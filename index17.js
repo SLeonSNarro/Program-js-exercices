@@ -11,8 +11,8 @@ function addContact(event) {
     <p class="lead">'${name} - ${phone}</p>
     <hr class="my-4">
     <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Edit</a>
-        <a class="btn btn-danger btn-lg" href="#" role="button">Delete</a>
+        <a class="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=qe5-ywmuKOg" role="button">Edit</a>
+        <a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=qe5-ywmuKOg" role="button">Delete</a>
     </p>
 </div>`
 
